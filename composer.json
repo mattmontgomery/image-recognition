@@ -1,0 +1,18 @@
+{
+    "name": "mmontgomery/image-recognition",
+    "type": "library",
+    "require": {
+        "aws/aws-sdk-php": "^3.108"
+    },
+    "authors": [
+        {
+            "name": "Matt Montgomery",
+            "email": "montgomery.matt@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "ImageRecognition\\": "src/"
+        }
+    }
+}
